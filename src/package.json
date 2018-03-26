@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Mario",
+    "image": "https://mario.nintendo.com/assets/img/home/intro/mario-pose2.png",
+    "occupation": "Plumber"
+  },
+  {
+    "id": 2,
+    "name": "Luigi",
+    "image": "https://vignette.wikia.nocookie.net/ssb/images/6/60/Luigi_%28NSMBU%29.png/revision/latest?cb=20130617011001",
+    "occupation": "Sidekick"
+  },
+  {
+    "id": 3,
+    "name": "Peach",
+    "image": "https://vignette.wikia.nocookie.net/nintendo/images/7/77/Princess_Peach_NSMBW.png/revision/latest?cb=20120107141833&path-prefix=en",
+    "occupation": "Damsel in Distress"
+  },
+  {
+    "id": 4,
+    "name": "Toad",
+    "image": "https://i.pinimg.com/originals/07/00/d4/0700d41ee20e036e126a1d9d07acffb7.jpg",
+    "occupation": "Helper"
+  },
+  {
+    "id": 5,
+    "name": "Yoshi",
+    "image": "https://vignette.wikia.nocookie.net/sonic/images/4/4d/Yoshi_-_Mario_Party_10.png/revision/latest?cb=20161026130516",
+    "occupation": "Man's Best Friend"
+  },
+  {
+    "id": 6,
+    "name": "Bowser",
+    "image": "https://cdn-images-1.medium.com/max/1600/1*x2Gw1gKrRQi5WEcBrKYA1g.png",
+    "occupation": "Bad Guy"
+  },
+  {
+    "id": 7,
+    "name": "Boo",
+    "image": "https://vignette.wikia.nocookie.net/nintendo/images/e/e4/MK8D_-_Boo_artwork.png/revision/latest?cb=20170113123150&path-prefix=en",
+    "occupation": "Ghost"
+  },
+  {
+    "id": 8,
+    "name": "Daisy",
+    "image": "https://aff5fa4925746bf9c161-fb36f18ca122a30f6899af8eef8fa39b.ssl.cf5.rackcdn.com/images/Masthead_Daisy.17345b1513ac044897cfc243542899dce541e8dc.9afde10b.png",
+    "occupation": "Love Interest"
+  },
+  {
+    "id": 9,
+    "name": "Koopa",
+    "image": "https://vignette.wikia.nocookie.net/vsbattles/images/1/16/Koopa_Troopa_SMBU.png/revision/latest?cb=20151116235647",
+    "occupation": "Turtle"
+  }
+]
