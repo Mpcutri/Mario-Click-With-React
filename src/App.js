@@ -3,6 +3,7 @@ import Card from "./components/CharacterCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import characters from "./package.json";
+import image from "./images/marioShuffle.png";
 import "./App.css";
 
 class App extends Component {
@@ -11,17 +12,21 @@ class App extends Component {
     characters: characters,
     score: 0,
     losses: 0,
-    lastClicked: ""
+    charactersClicked: ""
   };
 
   shuffleCharacters = (clickedLast) => {
+
     console.log("Click Worked!" + " " + clickedLast);
+    console.log(this.state.lastClicked + " was clicked last");
     const newOrder = this.shuffle(this.state.characters);
     this.setState({ characters: newOrder, lastClicked: clickedLast});
-    if (this.state.lastClicked == clickedLast) {
-      
+    if (this.state.lastClicked === clickedLast) {
+      this.state.losses++;
+      this.state.score = 0;
+    } else {
+      this.state.score++
     }
-
   };
 
   shuffle = (a) => {
@@ -41,13 +46,26 @@ class App extends Component {
 
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
-    console.log(characters, "characters. woo!");
+    console.log(characters, "characters shuffled!");
     return (
       <Wrapper>
-        <Title>Character List</Title>
+        <div style={{ textAlign: "center" }}>
+          <img src={image} style={{ width: "70%" }} />
+        </div>
+        <section className="text-box" style={{ display: "block", textAlign: "center", width: "100%"}}>
+          <p>Built in React</p>
+          <h3>
+            Try not to click the same character twice in a row!
+          </h3>
+        </section>
+        <section className="score" style={{ display: "block", textAlign: "center", width: "100%"}}>
+          <p>
+            Score: {this.state.score} &emsp; &emsp; &emsp; &emsp; Losses: {this.state.losses}
+          </p>
+        </section>
+
         {this.state.characters.map(character => (
           <Card
-            removeCharacter={this.removeCharacter}
             id={character.id}
             key={character.id}
             name={character.name}

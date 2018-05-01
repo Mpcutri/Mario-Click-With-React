@@ -15,7 +15,7 @@
     "id": 3,
     "name": "Peach",
     "image": "https://vignette.wikia.nocookie.net/nintendo/images/7/77/Princess_Peach_NSMBW.png/revision/latest?cb=20120107141833&path-prefix=en",
-    "occupation": "Damsel in Distress"
+    "occupation": "Princess"
   },
   {
     "id": 4,
@@ -45,12 +45,30 @@
     "id": 8,
     "name": "Daisy",
     "image": "https://aff5fa4925746bf9c161-fb36f18ca122a30f6899af8eef8fa39b.ssl.cf5.rackcdn.com/images/Masthead_Daisy.17345b1513ac044897cfc243542899dce541e8dc.9afde10b.png",
-    "occupation": "Love Interest"
+    "occupation": "Wannabe Princess"
   },
   {
     "id": 9,
     "name": "Koopa",
     "image": "https://vignette.wikia.nocookie.net/vsbattles/images/1/16/Koopa_Troopa_SMBU.png/revision/latest?cb=20151116235647",
     "occupation": "Turtle"
+  },
+  {
+    "id": 10,
+    "name": "Waluigi",
+    "image": "https://vignette.wikia.nocookie.net/fantendo/images/5/57/WaluigiMP8Official.png/revision/latest?cb=20100823140948",
+    "occupation": "Henchman"
+  },
+  {
+    "id": 11,
+    "name": "Wario",
+    "image": "https://www.mariowiki.com/images/thumb/3/3c/Wario_MP100.png/250px-Wario_MP100.png",
+    "occupation": "Wannabe Hero"
+  },
+  {
+    "id": 12,
+    "name": "Shy Guy",
+    "image": "https://aff5fa4925746bf9c161-fb36f18ca122a30f6899af8eef8fa39b.ssl.cf5.rackcdn.com/images/Masthead_ShyGuy.17345b1513ac044897cfc243542899dce541e8dc.9afde10b.png",
+    "occupation": "Unknown"
   }
 ]
